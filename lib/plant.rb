@@ -7,6 +7,7 @@ class Plant
     @name = name
     @@all << self
   end
+  
 
   def self.all
     @@all
